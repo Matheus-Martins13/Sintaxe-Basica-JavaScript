@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>MyDocument</title>
+</head>
+<body>
+    <h1>
+        O que deve ser escrito aqui?
+    </h1>
+    <br>
+
+    <script>
+        const nome = prompt('Digite seu nome completo:');
+        document.body.innerText += `O seu nome é: ${nome}\n`;
+        document.body.innerText += `Seu nome tem ${nome.length} letras. \n`;
+        document.body.innerText += `A segunda letra do seu nome é: '${nome[1]}' \n`;
+        document.body.innerText += `A primeira letra 'a' do seu nome está no índice: ${nome.indexOf('a')} \n`;
+        document.body.innerText += `O último índice da letra 'a' do seu nome é: ${nome.lastIndexOf('a')} \n`;
+        document.body.innerText += `As últimas 3 letras do seu nome são: ${nome.slice(-3)} \n`;
+        document.body.innerText += `As palavras do seu nome são: ${nome.split(' ')} \n`;
+        document.body.innerText += `O seu nome com letras maiúsculas: ${nome.toUpperCase()} \n`;
+        document.body.innerText += `O seu nome com letras minúsculas: ${nome.toLowerCase()} \n`;
+    </script>
+</body>
+</html>
