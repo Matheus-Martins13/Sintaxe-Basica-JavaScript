@@ -54,9 +54,9 @@ console.log(object.boolean);
 
 // Desestruturação 
 
-var string = object.string;
-var number = object.number;
-var array = object.array;
+let string = object.string;
+let number = object.number;
+let array = object.array;
 console.log(string);
 console.log(number);
 console.log(array);
